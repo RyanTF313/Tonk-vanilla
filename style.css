@@ -1,0 +1,26 @@
+/* .game-table, .hand {
+    display: none
+} */
+
+.game-table {
+    width:65%;
+    height: 200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+#discard {
+    border: 3px solid rgb(247, 211, 6);
+    border-radius: 10%;
+    width: 125px;
+    height: 175px;
+}
+#deck {
+    background: black;
+    border: 3px solid rgb(247, 211, 6);
+    border-radius: 10%;
+    width: 125px;
+    height: 175px;
+}
